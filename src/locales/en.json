@@ -1,0 +1,85 @@
+{
+  "hero": {
+    "greeting": "Hello, I'm",
+    "title": "Aya Khlif",
+    "subtitle": "Full Stack Web Developer | AI-integrated Systems",
+    "description": "I don't just write code; I engineer scalable digital solutions that drive business growth. With over 3 years of experience delivering enterprise-grade systems across Qatar, Saudi Arabia, Egypt, and Syria, I specialize in building scalable web systems, dashboards, APIs, e-commerce platforms, delivery systems, and AI-integrated solutions.",
+    "cta": "Let’s Build Scalable Solutions"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Aya Khlif is a Full Stack Web Developer with over 3 years of professional experience working with companies, freelance clients, and student projects across Qatar, Saudi Arabia, Egypt, and Syria. She specializes in building scalable web systems, dashboards, APIs, e-commerce platforms, delivery systems, and AI-integrated solutions."
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "languages": "Languages",
+    "frontend": "Frontend",
+    "backend": "Backend & Frameworks",
+    "mobile": "Mobile Development",
+    "ai": "AI & Automation",
+    "databases": "Databases & Realtime",
+    "devops": "DevOps & Deployment"
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "companies": {
+      "extend_it": {
+        "name": "Extend IT Solutions",
+        "role": "Full Stack Developer",
+        "desc": "Developed the MotoBox delivery ecosystem, Extend social management platform, and Circuit Store e-commerce. Expertise in React Native, Laravel, WebSockets for real-time tracking, and Facebook Graph API integration."
+      },
+      "master_coder": {
+        "name": "Master Coders",
+        "role": "Full Stack Developer",
+        "desc": "Built Real Estate Management systems, sports club websites with AI (Rasa/Flask) integration, and internal administrative task systems for companies."
+      },
+      "maitech": {
+        "name": "MaiTech",
+        "role": "Full Stack Developer",
+        "desc": "Delivered a wide range of unique and diverse software projects tailored to specific client needs across various domains."
+      }
+    }
+  },
+  "projects": {
+    "title": "Core Projects & Systems",
+    "extend_platform": "Extend Campaign Management",
+    "extend_desc": "Automated publishing for Facebook & Instagram, managing posts, comments, and Messenger via Facebook Graph API.",
+    "motobox": "MotoBox Delivery App",
+    "motobox_desc": "A complete Syrian delivery solution with real-time driver tracking (WebSockets), Firebase notifications, and automated status management.",
+    "circuit_store": "Circuit Store Qatar",
+    "circuit_desc": "High-end E-commerce platform integrated with custom ERP systems and various Qatari payment gateways.",
+    "tourism": "Tourism & Hotel Booking",
+    "tourism_desc": "Reservation system for users to book rooms and trips with an advanced management dashboard.",
+    "real_estate": "Real Estate Management",
+    "real_estate_desc": "Comprehensive system for listing, selling, and managing properties with a dedicated admin portal.",
+    "sports_club": "Sports Club + AI Bot",
+    "sports_club_desc": "Official website for a sports club featuring a custom-trained AI Bot using Python, Flask, and Rasa package.",
+    "admin_system": "Company Task Manager",
+    "admin_system_desc": "Internal administrative system for companies to manage employees, tasks, and daily operations efficiently.",
+    "printing": "Printing Company Portfolio",
+    "printing_desc": "Corporate portfolio website for a printing and advertising firm, deployed on Sahara Server/cPanel."
+  },
+  "payments": {
+    "title": "Advanced Integrations",
+    "description": "Successfully integrated these high-level technical services into enterprise solutions.",
+    "albaraka": "Al Baraka Bank Payment",
+    "mtn": "MTN OTP Integration",
+    "zatca": "ZATCA (Saudi Tax Authority)",
+    "payletter": "PayLetter Gateway",
+    "skipcash": "SkipCash Integration",
+    "firebase": "Firebase Push Notifications",
+    "rasa": "Rasa AI Chatbot (Custom Trained)",
+    "websockets": "Real-time WebSockets"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "Looking for a Developer Who Understands Business?",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "phone": "Phone",
+    "location": "Location",
+    "address": "Hama, Syria"
+  }
+}

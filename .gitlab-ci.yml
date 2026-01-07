@@ -1,0 +1,20 @@
+image: node:20-alpine
+
+# Cache node_modules to speed up builds
+cache:
+  paths:
+    - node_modules/
+
+pages:
+  stage: deploy
+  script:
+    - npm install
+    - npm run build
+    - rm -rf public
+    - mv dist public
+  artifacts:
+    paths:
+      - public
+  only:
+    - main
+    # or master if your branch is named master
