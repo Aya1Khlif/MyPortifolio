@@ -159,14 +159,14 @@ const Contact = () => {
               {status === 'success' && (
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex items-center text-green-600 bg-green-50 p-3 rounded-lg">
                   <CheckCircle className="w-5 h-5 mr-2" />
-                  <span>Your message has been sent successfully!</span>
+                  <span>{t('contact.success')}</span>
                 </motion.div>
               )}
 
               {status === 'error' && (
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex items-center text-red-600 bg-red-50 p-3 rounded-lg">
                   <AlertCircle className="w-5 h-5 mr-2" />
-                  <span>Failed to send the message. Please try again.</span>
+                  <span>{t('contact.error')}</span>
                 </motion.div>
               )}
 

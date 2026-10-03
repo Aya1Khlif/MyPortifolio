@@ -110,7 +110,9 @@
     "send": "Send Message",
     "phone": "Phone",
     "location": "Location",
-    "address": "Hama, Syria"
+    "address": "Hama, Syria",
+    "success": "Your message has been sent successfully!",
+    "error": "Failed to send the message. Please try again."
   },
   "education": {
     "title": "Education & Certifications",
