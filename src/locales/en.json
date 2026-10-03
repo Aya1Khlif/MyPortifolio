@@ -2,13 +2,14 @@
   "hero": {
     "greeting": "Hello, I'm",
     "title": "Aya Khlif",
-    "subtitle": "Full Stack Web Developer | AI-integrated Systems",
-    "description": "I don't just write code; I engineer scalable digital solutions that drive business growth. With over 3 years of experience delivering enterprise-grade systems across Qatar, Saudi Arabia, Egypt, and Syria, I specialize in building scalable web systems, dashboards, APIs, e-commerce platforms, delivery systems, and AI-integrated solutions.",
-    "cta": "Let’s Build Scalable Solutions"
+    "subtitle": "Full Stack Software Engineer | NestJS · Next.js · React · Laravel · PostgreSQL",
+    "description": "I don't just write code; I engineer scalable digital solutions that drive business growth. With 5+ years of experience (since 2021) delivering SaaS platforms, government ERP systems, e-commerce, delivery and real-estate solutions for clients across Saudi Arabia, UAE, Qatar, Iraq, Egypt, Sweden, Germany, China, and Syria.",
+    "cta": "Let’s Build Scalable Solutions",
+    "cv": "Download CV"
   },
   "about": {
     "title": "About Me",
-    "description": "Aya Khlif is a Full Stack Web Developer with over 3 years of professional experience working with companies, freelance clients, and student projects across Qatar, Saudi Arabia, Egypt, and Syria. She specializes in building scalable web systems, dashboards, APIs, e-commerce platforms, delivery systems, and AI-integrated solutions."
+    "description": "Aya Khlif is a Full Stack Software Engineer with 5+ years building SaaS platforms, government ERP systems, e-commerce, delivery and real-estate solutions. Currently a Full Stack Software Engineer at Hama Governorate, building internal government systems, most notably the governorate ERP. Previously worked on a multi-tenant SaaS product at Wasmware (NestJS, Next.js, PostgreSQL, Traefik, API gateway), including payment gateway integration and ZATCA Phase 2 e-invoicing."
   },
   "skills": {
     "title": "Technical Skills",
@@ -23,10 +24,25 @@
   "experience": {
     "title": "Professional Experience",
     "companies": {
+      "hama": {
+        "name": "Hama Governorate",
+        "role": "Full Stack Software Engineer",
+        "desc": "Build and maintain multiple internal government systems, the main one being the governorate ERP. Modules: finance (fiscal years, payment orders, revenue collection, budget amendments), budget lines & account codes, procurement & maintenance (purchase requests, tenders, committees, supplier portal), and HR workflows (employee advances). Work with stakeholders and QA to turn administrative procedures into multi-step approval workflows."
+      },
+      "wasmware": {
+        "name": "Wasmware",
+        "role": "Full Stack Developer",
+        "desc": "Worked on a multi-tenant SaaS platform with NestJS, Next.js, PostgreSQL, Traefik and an API gateway. Integrated payment gateways and ZATCA Phase 2 (Fatoora) e-invoicing."
+      },
       "extend_it": {
         "name": "Extend IT Solutions",
+        "role": "Full Stack Web Developer",
+        "desc": "Develop and maintain enterprise web systems for clients in Qatar, Egypt, and Syria: real-estate platforms, e-commerce stores, delivery apps and internal tools. Currently working on MotoBox, a delivery platform with live driver tracking (WebSockets) and Firebase push notifications."
+      },
+      "freelance": {
+        "name": "Freelance",
         "role": "Full Stack Developer",
-        "desc": "Developed the MotoBox delivery ecosystem, Extend social management platform, and Circuit Store e-commerce. Expertise in React Native, Laravel, WebSockets for real-time tracking, and Facebook Graph API integration."
+        "desc": "Delivered web systems for clients in Saudi Arabia, UAE, Iraq, Sweden, Germany, China, and Syria: accounting and shipping-container management, jewelry management, medical platforms, and company task management."
       },
       "master_coder": {
         "name": "Master Coders",
@@ -37,10 +53,22 @@
         "name": "MaiTech",
         "role": "Full Stack Developer",
         "desc": "Delivered a wide range of unique and diverse software projects tailored to specific client needs across various domains."
+      },
+      "focal_x": {
+        "name": "Focal X",
+        "role": "Front End & Full Stack Developer Trainee",
+        "desc": "Completed intensive front-end training (GPA 77%) and moved into full-stack development; led programming teams."
       }
     }
   },
   "projects": {
+    "hama_erp": "Hama Governorate ERP",
+    "hama_erp_desc": "Government finance, budgeting, procurement and HR system with multi-stage approvals.",
+    "saas": "SaaS Platform (Wasmware)",
+    "saas_desc": "Multi-tenant SaaS platform with API gateway, payment gateways and ZATCA Phase 2 e-invoicing.",
+    "status_internal": "Internal / Government",
+    "status_private": "Private / NDA",
+    "status_ongoing": "In progress / ongoing",
     "title": "Core Projects & Systems",
     "extend_platform": "Extend Campaign Management",
     "extend_desc": "Automated publishing for Facebook & Instagram, managing posts, comments, and Messenger via Facebook Graph API.",

@@ -8,6 +8,18 @@ const Projects = () => {
 
   const projects = [
     {
+      title: t('projects.hama_erp'),
+      description: t('projects.hama_erp_desc'),
+      tags: [t('projects.status_internal'), 'Finance', 'Procurement', 'HR'],
+      icon: '🏛️'
+    },
+    {
+      title: t('projects.saas'),
+      description: t('projects.saas_desc'),
+      tags: [t('projects.status_private'), 'NestJS', 'Next.js', 'PostgreSQL', 'Traefik', 'API Gateway', 'ZATCA', 'Payments'],
+      icon: '☁️'
+    },
+    {
       title: t('projects.extend_platform'),
       description: t('projects.extend_desc'),
       tags: ['Laravel', 'Facebook Graph API', 'Automation'],
@@ -16,7 +28,7 @@ const Projects = () => {
     {
       title: t('projects.motobox'),
       description: t('projects.motobox_desc'),
-      tags: ['React Native', 'Laravel', 'WebSockets', 'Firebase'],
+      tags: [t('projects.status_ongoing'), 'React Native', 'Laravel', 'WebSockets', 'Firebase'],
       icon: '📦'
     },
     {

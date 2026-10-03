@@ -88,6 +88,13 @@ const Hero = () => {
               >
                 {t('contact.title')}
               </a>
+              <a
+                href={`${import.meta.env.BASE_URL}Aya_Khlif_CV.pdf`}
+                download
+                className="px-8 py-3.5 bg-white text-gray-800 border border-gray-200 rounded-full font-medium shadow-sm hover:shadow-md hover:border-primary/30 hover:bg-pink-50/50 transition-all flex items-center justify-center"
+              >
+                {t('hero.cv')}
+              </a>
             </motion.div>
             
             <motion.div variants={itemVariants} className={`mt-12 flex items-center gap-8 justify-center ${isRTL ? 'lg:justify-end' : 'lg:justify-start'} grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-500`}>
@@ -151,7 +158,7 @@ const Hero = () => {
                     </div>
                     <div>
                         <div className="text-xs text-gray-500">Experience</div>
-                        <div className="font-bold text-gray-800">3+ Years</div>
+                        <div className="font-bold text-gray-800">5+ Years</div>
                     </div>
                 </motion.div>
 

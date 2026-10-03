@@ -7,24 +7,13 @@ const Experience = () => {
   const { t } = useTranslation();
 
   const experiences = [
-    { 
-        company: t('experience.companies.extend_it.name'), 
-        role: t('experience.companies.extend_it.role'), 
-        desc: t('experience.companies.extend_it.desc'),
-        period: '2023 - Present' 
-    },
-    { 
-        company: t('experience.companies.master_coder.name'), 
-        role: t('experience.companies.master_coder.role'), 
-        desc: t('experience.companies.master_coder.desc'),
-        period: '2022 - 2023' 
-    },
-    { 
-        company: t('experience.companies.maitech.name'), 
-        role: t('experience.companies.maitech.role'), 
-        desc: t('experience.companies.maitech.desc'),
-        period: '2021 - 2022' 
-    },
+    { company: t('experience.companies.hama.name'), role: t('experience.companies.hama.role'), desc: t('experience.companies.hama.desc'), period: 'Oct 2025 - Present' },
+    { company: t('experience.companies.wasmware.name'), role: t('experience.companies.wasmware.role'), desc: t('experience.companies.wasmware.desc'), period: 'Feb 2026 - Sep 2026' },
+    { company: t('experience.companies.extend_it.name'), role: t('experience.companies.extend_it.role'), desc: t('experience.companies.extend_it.desc'), period: 'Sep 2023 - Present' },
+    { company: t('experience.companies.freelance.name'), role: t('experience.companies.freelance.role'), desc: t('experience.companies.freelance.desc'), period: '2021 - Present' },
+    { company: t('experience.companies.master_coder.name'), role: t('experience.companies.master_coder.role'), desc: t('experience.companies.master_coder.desc'), period: '2022 - 2023' },
+    { company: t('experience.companies.maitech.name'), role: t('experience.companies.maitech.role'), desc: t('experience.companies.maitech.desc'), period: '2021 - 2022' },
+    { company: t('experience.companies.focal_x.name'), role: t('experience.companies.focal_x.role'), desc: t('experience.companies.focal_x.desc'), period: '2023 - 2024' },
   ];
 
   return (

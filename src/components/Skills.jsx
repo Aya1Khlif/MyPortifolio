@@ -11,7 +11,7 @@ const Skills = () => {
       id: 'languages',
       title: t('skills.languages'), 
       icon: <Code2 className="w-6 h-6" />,
-      items: ['PHP', 'JavaScript', 'Python', 'C#'] 
+      items: ['PHP', 'JavaScript', 'TypeScript', 'Python', 'C#'] 
     },
     { 
       id: 'frontend',
@@ -23,7 +23,7 @@ const Skills = () => {
       id: 'backend',
       title: t('skills.backend'), 
       icon: <Server className="w-6 h-6" />,
-      items: ['Laravel', 'CodeIgniter', 'Django', 'REST APIs'] 
+      items: ['NestJS', 'Node.js', 'Laravel', 'CodeIgniter', 'Django', 'REST APIs', 'API Gateway', 'ZATCA e-invoicing', 'Payment Gateways'] 
     },
     { 
       id: 'mobile',
@@ -47,7 +47,7 @@ const Skills = () => {
       id: 'devops',
       title: t('skills.devops'), 
       icon: <Terminal className="w-6 h-6" />,
-      items: ['Linux CLI', 'VPS (Hostinger)', 'Sahara Server', 'cPanel'] 
+      items: ['Git', 'Traefik', 'Linux CLI', 'VPS (Hostinger)', 'Sahara Server', 'cPanel'] 
     },
   ];
 
