@@ -5,7 +5,9 @@
     "subtitle": "Full Stack Software Engineer | NestJS · Next.js · React · Laravel · PostgreSQL",
     "description": "I don't just write code; I engineer scalable digital solutions that drive business growth. With 5+ years of experience (since 2021) delivering SaaS platforms, government ERP systems, e-commerce, delivery and real-estate solutions for clients across Saudi Arabia, UAE, Qatar, Iraq, Egypt, Sweden, Germany, China, and Syria.",
     "cta": "Let’s Build Scalable Solutions",
-    "cv": "Download CV"
+    "cv": "Download CV",
+    "experience": "Experience",
+    "years": "5+ Years"
   },
   "about": {
     "title": "About Me",
@@ -121,6 +123,13 @@
   },
   "approach": {
     "title": "Built for Business Impact",
-    "desc": "From requirements analysis and system design to deployment and maintenance, I deliver reliable, scalable software that fits how your business actually works."
+    "desc": "From requirements analysis and system design to deployment and maintenance, I deliver reliable, scalable software that fits how your business actually works.",
+    "strategic_title": "Strategic Alignment",
+    "strategic_desc": "Aligning technical architecture with long-term business goals.",
+    "scalability_title": "Scalability Focus",
+    "scalability_desc": "Building systems designed to grow with your user base.",
+    "quality": "Commitment to Quality",
+    "years": "Years Experience",
+    "projects": "Enterprise Projects"
   }
 }

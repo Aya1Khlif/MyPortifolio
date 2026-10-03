@@ -157,8 +157,8 @@ const Hero = () => {
                         <HeartIcon className="w-6 h-6 text-primary" />
                     </div>
                     <div>
-                        <div className="text-xs text-gray-500">Experience</div>
-                        <div dir="ltr" className="font-bold text-gray-800">5+ Years</div>
+                        <div className="text-xs text-gray-500">{t('hero.experience')}</div>
+                        <div className="font-bold text-gray-800">{t('hero.years')}</div>
                     </div>
                 </motion.div>
 
