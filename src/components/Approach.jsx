@@ -64,7 +64,7 @@ const Approach = () => {
             </div>
             <div className="mt-8 grid grid-cols-2 gap-4">
                 <div className="bg-white/5 p-4 rounded-xl text-center">
-                    <span className="block text-2xl font-bold text-white">3+</span>
+                    <span className="block text-2xl font-bold text-white">5+</span>
                     <span className="text-sm text-gray-400">Years Experience</span>
                 </div>
                 <div className="bg-white/5 p-4 rounded-xl text-center">

@@ -72,10 +72,10 @@ const Hero = () => {
               {t('hero.description')}
             </motion.p>
 
-            <motion.div variants={itemVariants} className={`flex flex-col sm:flex-row gap-4 justify-center ${isRTL ? 'lg:justify-end' : 'lg:justify-start'}`}>
+            <motion.div variants={itemVariants} className={`flex flex-col sm:flex-row gap-3 flex-wrap justify-center ${isRTL ? 'lg:justify-end' : 'lg:justify-start'}`}>
               <a 
                 href="#projects"
-                className="group relative px-8 py-3.5 bg-primary text-white rounded-full font-medium shadow-lg hover:shadow-xl hover:bg-pink-600 transition-all overflow-hidden"
+                className="group relative px-5 py-3.5 whitespace-nowrap bg-primary text-white rounded-full font-medium shadow-lg hover:shadow-xl hover:bg-pink-600 transition-all overflow-hidden"
               >
                 <span className="relative z-10 flex items-center justify-center">
                   {t('hero.cta')}
@@ -84,14 +84,14 @@ const Hero = () => {
               </a>
               <a 
                 href="#contact"
-                className="px-8 py-3.5 bg-white text-gray-800 border border-gray-200 rounded-full font-medium shadow-sm hover:shadow-md hover:border-primary/30 hover:bg-pink-50/50 transition-all flex items-center justify-center"
+                className="px-5 py-3.5 whitespace-nowrap bg-white text-gray-800 border border-gray-200 rounded-full font-medium shadow-sm hover:shadow-md hover:border-primary/30 hover:bg-pink-50/50 transition-all flex items-center justify-center"
               >
                 {t('contact.title')}
               </a>
               <a
                 href={`${import.meta.env.BASE_URL}Aya_Khlif_CV.pdf`}
                 download
-                className="px-8 py-3.5 bg-white text-gray-800 border border-gray-200 rounded-full font-medium shadow-sm hover:shadow-md hover:border-primary/30 hover:bg-pink-50/50 transition-all flex items-center justify-center"
+                className="px-5 py-3.5 whitespace-nowrap bg-white text-gray-800 border border-gray-200 rounded-full font-medium shadow-sm hover:shadow-md hover:border-primary/30 hover:bg-pink-50/50 transition-all flex items-center justify-center"
               >
                 {t('hero.cv')}
               </a>
@@ -158,7 +158,7 @@ const Hero = () => {
                     </div>
                     <div>
                         <div className="text-xs text-gray-500">Experience</div>
-                        <div className="font-bold text-gray-800">5+ Years</div>
+                        <div dir="ltr" className="font-bold text-gray-800">5+ Years</div>
                     </div>
                 </motion.div>
 

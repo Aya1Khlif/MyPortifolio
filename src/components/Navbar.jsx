@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="bg-primary text-white py-1 px-4 text-sm hidden md:block">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
             <div className="flex space-x-4 space-x-reverse items-center">
-               <span className="text-secondary font-light tracking-wider text-xs uppercase">Full Stack Developer</span>
+               <span className="text-secondary font-light tracking-wider text-xs uppercase">Full Stack Software Engineer</span>
             </div>
             <div className="flex items-center space-x-4">
                  <a href="https://github.com/Aya1Khlif" target="_blank" rel="noopener noreferrer" className="hover:text-secondary transition-colors">

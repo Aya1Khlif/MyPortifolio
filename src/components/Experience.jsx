@@ -7,13 +7,13 @@ const Experience = () => {
   const { t } = useTranslation();
 
   const experiences = [
-    { company: t('experience.companies.hama.name'), role: t('experience.companies.hama.role'), desc: t('experience.companies.hama.desc'), period: 'Oct 2025 - Present' },
     { company: t('experience.companies.wasmware.name'), role: t('experience.companies.wasmware.role'), desc: t('experience.companies.wasmware.desc'), period: 'Feb 2026 - Sep 2026' },
+    { company: t('experience.companies.hama.name'), role: t('experience.companies.hama.role'), desc: t('experience.companies.hama.desc'), period: 'Oct 2025 - Present' },
     { company: t('experience.companies.extend_it.name'), role: t('experience.companies.extend_it.role'), desc: t('experience.companies.extend_it.desc'), period: 'Sep 2023 - Present' },
-    { company: t('experience.companies.freelance.name'), role: t('experience.companies.freelance.role'), desc: t('experience.companies.freelance.desc'), period: '2021 - Present' },
-    { company: t('experience.companies.master_coder.name'), role: t('experience.companies.master_coder.role'), desc: t('experience.companies.master_coder.desc'), period: '2022 - 2023' },
-    { company: t('experience.companies.maitech.name'), role: t('experience.companies.maitech.role'), desc: t('experience.companies.maitech.desc'), period: '2021 - 2022' },
     { company: t('experience.companies.focal_x.name'), role: t('experience.companies.focal_x.role'), desc: t('experience.companies.focal_x.desc'), period: '2023 - 2024' },
+    { company: t('experience.companies.master_coder.name'), role: t('experience.companies.master_coder.role'), desc: t('experience.companies.master_coder.desc'), period: '2022 - 2023' },
+    { company: t('experience.companies.freelance.name'), role: t('experience.companies.freelance.role'), desc: t('experience.companies.freelance.desc'), period: '2021 - Present' },
+    { company: t('experience.companies.maitech.name'), role: t('experience.companies.maitech.role'), desc: t('experience.companies.maitech.desc'), period: '2021 - 2022' },
   ];
 
   return (
@@ -48,7 +48,7 @@ const Experience = () => {
                     <Briefcase className="w-5 h-5 text-primary mr-2 rtl:ml-2 rtl:mr-0" />
                     <h3 className="text-xl font-bold text-gray-900">{exp.company}</h3>
                   </div>
-                  <span className="text-sm text-gray-500 font-medium mt-2 sm:mt-0 bg-gray-100 px-3 py-1 rounded-full w-fit">{exp.period}</span>
+                  <span dir="ltr" className="text-sm text-gray-500 font-medium mt-2 sm:mt-0 bg-gray-100 px-3 py-1 rounded-full w-fit">{exp.period}</span>
                 </div>
                 <h4 className="text-lg text-primary font-semibold mb-2">{exp.role}</h4>
                 <p className="text-gray-600 leading-relaxed">{exp.desc}</p>

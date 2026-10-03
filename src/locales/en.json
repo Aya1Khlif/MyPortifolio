@@ -109,5 +109,18 @@
     "phone": "Phone",
     "location": "Location",
     "address": "Hama, Syria"
+  },
+  "education": {
+    "title": "Education & Certifications",
+    "degree_title": "Education",
+    "degree": "Bachelor's Degree in Information Technology - Syrian Virtual University (Expected 2026)",
+    "certs_title": "Certifications",
+    "languages_title": "Languages",
+    "arabic": "Arabic (native)",
+    "english": "English (proficient)"
+  },
+  "approach": {
+    "title": "Built for Business Impact",
+    "desc": "From requirements analysis and system design to deployment and maintenance, I deliver reliable, scalable software that fits how your business actually works."
   }
 }

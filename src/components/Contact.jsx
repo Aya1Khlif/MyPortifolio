@@ -76,8 +76,8 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-gray-900">{t('contact.email')}</h3>
-                <a href="mailto:ayatkhlif999@gmail.com" className="text-gray-600 hover:text-primary transition-colors">
-                  ayatkhlif999@gmail.com
+                <a href="mailto:ayakhlife222@gmail.com" className="text-gray-600 hover:text-primary transition-colors">
+                  ayakhlife222@gmail.com
                 </a>
               </div>
             </div>
